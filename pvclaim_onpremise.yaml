@@ -18,7 +18,7 @@ spec:
  - ReadWriteMany
  storageClassName: bold-storageclass
  hostPath:
-   path: "/var/www/boldbi"
+   path: "/run/desktop/mnt/host/home/$USER"
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
