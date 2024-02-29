@@ -5,8 +5,8 @@ resources:
   - nginx-deployment.yaml
   - azure-file-csi-deployment.yaml
   - namespace.yaml
-  - configuration/pvclaim_onpremise.yaml
-  #-/configuration/pvclaim_azure_nfs.yaml
+  - pvclaim_onpremise.yaml
+  #-pvclaim_azure_nfs.yaml
   - log4net_config.yaml
   - root-user-details.yaml
   - version-config.yaml
